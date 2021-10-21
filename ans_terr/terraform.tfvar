@@ -1,0 +1,13 @@
+project = "terrafrom-sri"
+region = "us-central1"
+account_id = "compute"
+display_sa_name = "Service Account"
+network_name = "my-network"
+master_os_image = "centos-cloud/centos-7"
+name  = "test"
+machine_type = "n2-standard-2"
+disk_size = 50
+disk_type = 'pd-standard'
+auto_delete = true
+deletion_protection = true
+instance_tags = ["abcc","def"]
